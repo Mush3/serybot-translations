@@ -13,30 +13,30 @@ needsJoin: "Eu não entrei no seu canal. Certifique-se de usar !join primeiro."
 needsAuth: "Este comando requer que você autorize com Sery_Bot primeiro. Clique neste link para completar esse processo. Em seguida, vá para o seu canal e /mod Sery_Bot. Quando terminar, execute esse comando novamente. {{authLink}}"
 needsPermissions: "Eu não tenho permissões atualizadas para o seu canal. Por favor, visite {{authLink}} para corrigir isso, em seguida use esse comando novamente."
 needsMod: "Eu não sou moderador no seu canal. Certifique-se de usar /mod Sery_Bot no seu canal primeiro. Se já fez isso, tente desmoderar e remoderar o bot."
-joinWelcome: "Bem-vindo ao bot! Eu entrarei no seu canal quando você estiver ao vivo. Se quiser proteção conta bots de seguimento, certifique-se de usar !followban"
+joinWelcome: "Bem-vindo ao bot! Eu entrarei no seu canal quando você estiver ao vivo. Se quiser proteção contra follow bots, certifique-se de usar !followban"
 rejoinWelcome: "Se estiver vendo essa mensagem, está tudo configurado! Eu entrarei no seu canal quando você estiver ao vivo."
-rejoinFollowBanEnabled: "Eu estou bloqueando bots de seguimento para você!"
-rejoinFollowBanDisabled: "Se quiser proteção conta bots de seguimento, certifique-se de usar o comando !followban"
+rejoinFollowBanEnabled: "Também estou bloqueando follow bots para você!"
+rejoinFollowBanDisabled: "Se quiser proteção contra follow bots, certifique-se de usar o comando !followban"
 leaveChannel: "Eu saí do seu canal."
 
 # !info
 info: "Bem-vindo ao canal de Sery_Bot! Este bot é um bot de proteção contra raids de ódio que contém várias formas de detectar e bloquear raids de ódio. Para detalhes, instruções, comandos e mais, eu recomendo fortemente que verifique {{carrdLink}}"
 
 # !adtimer and related
-needsAdAuth: "Eu não tenho permissão para checar anúncios no seu canal. Por favor visite {{authLink}} para corrigir isso e então use este comando novamente."
+needsAdAuth: "Eu não tenho permissão para checar anúncios no seu canal. Por favor, visite {{authLink}} para corrigir isso e então use esse comando novamente."
 adTimerEnabled: "Temporizador de anúncios ativado"
 adTimerDisabled: "Temporizador de anúncios desativado"
-adBreakBegin: "Um intervalo comercial de {{duration}} está começando! Thank you for sticking with us through this break! {{emote}} Ads help support my content. Consider subscribing to remove ads and support the stream!"
-adBreakEnd: "O intervalo comercial esta terminando agora! {{emote}}"
-noAdMsgProvided: "Por favor forneça uma mensagem para o temporizador de anúncios. Exemplo: {{command}} Considere se inscrever para remover anúncios e apoiar a stream!"
-adMsgTooLong: "A mensagem de anúncio é muito longa. Por favor forneça uma mensagem com menos de 400 caracteres."
+adBreakBegin: "Um intervalo comercial de {{duration}} está começando! Obrigado por ficar conosco durante este intervalo! {{emote}} Anúncios ajudam a apoiar meu conteúdo. Considere se inscrever para remover anúncios e apoiar a stream!"
+adBreakEnd: "O intervalo comercial está terminando agora! {{emote}}"
+noAdMsgProvided: "Por favor, forneça uma mensagem para o temporizador de anúncios. Exemplo: {{command}} Considere se inscrever para remover anúncios e apoiar a stream!"
+adMsgTooLong: "A mensagem de anúncio é muito longa. Por favor, forneça uma mensagem com menos de 400 caracteres."
 adMsgNoSlash: "Desculpe, Eu não posso utilizar comandos com / como /announce para temporizadores de anúncios."
 adMsgSet: "Mensagem personalizada de temporizador de anúncio adicionada: {{adMsg}}"
 adMsgEndSet: "Mensagem personalizada do término de temporizador de anúncios adicionada: {{adMsg}}"
 
 # raid-out
-raidOutMessageCleared: "Mensagem de raid-out personalizada limpa"
-raidOutMessageSet: "Mensagem de raid-out personalizada adicionada"
+raidOutMessageCleared: "Mensagem personalizada de raid-out limpa"
+raidOutMessageSet: "Mensagem personalizada de raid-out adicionada"
 raidOutOn: "Alerta de Raid-out ativado"
 raidOutOff: "Alerta de Raid-out desativado"
 raidOutMessage: "{{channelFrom}} enviou a raid para {{channelTo}}! Junte-se a nós em https://twitch.tv/{{channelToLogin}} e mostre algum amor! {{emote1}} {{emote2}}"
@@ -44,23 +44,23 @@ raidOutMessage: "{{channelFrom}} enviou a raid para {{channelTo}}! Junte-se a n�
 # stream online
 seryBotJoined: "Sery_Bot entrou"
 seryBotJoinedFirstMsg: "Sery_Bot agora te notificará quando entrar no seu chat. Para desativar essas notificações futuras, digite !onlinenotifoff (essa mensagem de introdução será exibida apenas uma vez)"
-seryBotReauthNeeded: "Olá @{{channel}}, Twitch está fazendo algumas mudanças para contas de bots. Para garantir que Sery_Bot continue funcionando como esperado, você tera que reautenticar o bot. Por favor visite {{authLink}} quando possível. Obrigado!"
+seryBotReauthNeeded: "Olá @{{channel}}, Twitch está fazendo algumas mudanças para contas de bots. Para garantir que Sery_Bot continue funcionando como esperado, você terá que reautenticar o bot. Por favor, visite {{authLink}} quando possível. Obrigado!"
 
 # Settings
 onlineNotifOn: "Eu te notificarei quando estiver no seu canal."
 onlineNotifOff: "Eu não te notificarei mais quando estiver no seu canal."
-offlineChannelLockOn: "Offline channel lock enabled"
-offlineChannelLockOff: "Offline channel lock disabled"
+offlineChannelLockOn: "Bloqueio de canal offline ativado"
+offlineChannelLockOff: "Bloqueio de canal offline desativado"
 raffleSystemOn: "Sistema de sorteio ativado"
 raffleSystemOff: "Sistema de sorteio desativado"
-followBanOn: "Proteção contra bots de seguimento ativado"
-followBanOff: "Proteção contra bots de seguimento desativado"
+followBanOn: "Proteção contra follow bots ativado"
+followBanOff: "Proteção contra follow bots desativado"
 
 # Reauth whisper
 # No links because Twitch considers them spam
-reauthWhisper: "Olá, esta é uma mensagem automatica para informar que Sery_Bot não está mais protegendo seu canal. Isso geralmente acontece quando você muda sua senha. Se quiser readicionar o bot, visite a página de Sery_Bot na Twitch e !join para adicionar o bot novamente. Se tiver alguma dúvida, sinta-se à vontade para mandar uma mensagem para @SeryCodes no Twitter. Obrigado!"
+reauthWhisper: "Olá, esta é uma mensagem automática para informar que Sery_Bot não está mais protegendo seu canal. Isso geralmente acontece quando você muda sua senha. Se quiser readicionar o bot, visite a página de Sery_Bot na Twitch e !join para adicionar o bot novamente. Se tiver alguma dúvida, sinta-se à vontade para mandar uma mensagem para @SeryCodes no Twitter. Obrigado!"
 
 # language
 languageSet: "Idioma definido para Português"
-noLanguageProvided: "Sem idioma fornecido. Por favor forneca um código de idioma válido. Código de idioma validos são: {{validLangCodes}}"
-invalidLanguage: "Código de idioma inválido. Por favor forneça um código de idioma válido. Código de idioma validos são: {{validLangCodes}}"
+noLanguageProvided: "Sem idioma fornecido. Por favor, forneca um código de idioma válido. Código de idioma validos são: {{validLangCodes}}"
+invalidLanguage: "Código de idioma inválido. Por favor, forneça um código de idioma válido. Código de idioma validos são: {{validLangCodes}}"
